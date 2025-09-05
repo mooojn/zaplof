@@ -1,0 +1,33 @@
+.hero {
+    max-width: 900px;
+    padding: 120px 20px 80px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+.gradient-blob {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 300px;
+    background: radial-gradient(circle at 30% 30%, #00ff99, #0099ff, #7f00ff);
+    filter: blur(200px);
+    opacity: 0.6;
+    z-index: 1;
+}

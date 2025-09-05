@@ -1,0 +1,119 @@
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  border: 1px solid var(--primary);
+  padding: 2rem;
+  border-radius: 12px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.project-card:hover {
+  border-radius: 22px;
+  box-shadow: 2px 2px 10px 5px var(--primary);
+}
+
+/* Left side (info) */
+.project-card .left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Right side (image) */
+.project-card .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card .right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Subtitle */
+.project-sub-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Title */
+.project-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+/* Description */
+.project-description {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+/* Features */
+.project-features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.project-features li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Badges */
+.project-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+.project-badges li {
+  background: #2a1454;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px;
+  transition: background 0.3s ease-in-out;
+}
+.project-badges li:hover {
+  background: cyan;
+  color: #000;
+}
+
+/* Buttons */
+.project-card button {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.project-card button:hover {
+  background: #2a1454;
+  transform: translateY(-2px);
+}
