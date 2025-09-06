@@ -3,10 +3,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
-    position: fixed;
     left: 50%;
+    position: fixed;
+    z-index: 3;
     transform: translateX(-50%);
     width: 95%;
+
 }
 
 .logo img {
