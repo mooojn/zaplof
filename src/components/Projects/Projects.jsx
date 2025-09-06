@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card/Card.jsx'
 import Heading from '../../Heading.jsx'
+import { projects } from '../../data/data.js'
 import './Projects.css'
 
 const Projects = () => {
@@ -8,9 +9,9 @@ const Projects = () => {
     <div>
       <Heading head='Recent' end='Projects' description='I enjoy building side projects and constantly challenge myself apart from my actual work :)'></Heading>
       <div className="cards">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        {projects.map((proj, id)=>
+          <Card key={id} project={proj}></Card>
+        )}
       </div>
     </div>
   )
