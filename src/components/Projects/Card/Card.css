@@ -1,12 +1,10 @@
 .project-card {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   gap: 2rem;
   border: 1px solid var(--primary);
   padding: 2rem;
   border-radius: 12px;
-  background: #fff;
+  background: var(--secondary);
   transition: all 0.3s ease-in-out;
   max-width: 1500px;
   margin: 0 auto;
@@ -17,49 +15,42 @@
   box-shadow: 2px 2px 10px 5px var(--primary);
 }
 
-/* Left side (info) */
 .project-card .left {
-  flex: 1.2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* Right side (image) */
-.project-card .right {
   flex: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.project-card .right {
+  flex: 2;
+  display: flex;
   align-items: center;
 }
 
 .project-card .right img {
   max-width: 100%;
-  height: auto;
+  height: 700px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* Subtitle */
 .project-sub-heading {
   font-size: 1rem;
   font-weight: 600;
   color: var(--primary);
-  margin-bottom: 0.5rem;
+  margin-bottom: -25px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* Title */
 .project-heading {
   font-size: 2.5rem;
   font-weight: 800;
-  margin-bottom: 1rem;
+  margin-bottom: 1px;
   color: #000;
 }
 
-/* Description */
 .project-description {
   font-size: 1.125rem;
   line-height: 1.6;
@@ -67,7 +58,6 @@
   margin-bottom: 1.5rem;
 }
 
-/* Features */
 .project-features {
   list-style: none;
   padding: 0;
@@ -79,7 +69,6 @@
   color: #333;
 }
 
-/* Badges */
 .project-badges {
   display: flex;
   flex-wrap: wrap;
@@ -89,10 +78,10 @@
   list-style: none;
 }
 .project-badges li {
-  background: #2a1454;
-  color: #fff;
+  background: var(--primary);
+  color: var(--secondary);
   font-size: 0.875rem;
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 0.8rem;
   border-radius: 9999px;
   transition: background 0.3s ease-in-out;
 }
@@ -101,10 +90,9 @@
   color: #000;
 }
 
-/* Buttons */
 .project-card button {
   background: var(--primary);
-  color: #fff;
+  color: var(--secondary);
   font-weight: 600;
   padding: 0.6rem 1.2rem;
   border: none;
@@ -116,4 +104,10 @@
 .project-card button:hover {
   background: #2a1454;
   transform: translateY(-2px);
+}
+
+@media screen and (max-width: 1668px){
+  .project-card{
+    margin: 0 20px;
+  }
 }

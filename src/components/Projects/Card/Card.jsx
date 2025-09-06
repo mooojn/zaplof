@@ -1,9 +1,12 @@
 import React from 'react'
+import proj from '../../../assets/proj.png'
 import './Card.css'
 
 const Card = () => {
   return (
     <div className="project-card">
+      <div className="left">
+
       <h3 className="project-sub-heading">Web App</h3>
       <h2 className="project-heading">FormCraft</h2>
       <p className="project-description">
@@ -35,6 +38,10 @@ const Card = () => {
       <div className="project-links">
         <button>Live</button>
         <button>Github</button>
+      </div>
+      </div>
+      <div className="right">
+        <img src={proj} alt="" /> 
       </div>
     </div>
   )
