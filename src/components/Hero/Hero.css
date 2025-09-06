@@ -2,6 +2,9 @@
     max-width: 900px;
     padding: 120px 20px 80px;
     margin: 0 auto;
+    text-align: center;   /* Center text, button, and inline content */
+    position: relative;   /* Ensures gradient blob doesn't affect layout */
+    z-index: 2;           /* Keep content above gradient */
 }
 
 .hero h1 {
