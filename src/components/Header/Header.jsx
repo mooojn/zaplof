@@ -5,10 +5,10 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <div class="header">
-                <div class="logo"><img src={logo} alt="Logo" /></div>
-                <div class="nav">
-                    <ul class="nav-items">
+            <div className="header">
+                <div className="logo"><img src={logo} alt="Logo" /></div>
+                <div className="nav">
+                    <ul className="nav-items">
                         <li>Home</li>
                         <li>Contact</li>
                         <li>About</li>
@@ -16,7 +16,7 @@ const Header = () => {
                         <li>Projects</li>
                     </ul>
                 </div>
-                <button class="call-to-action">Get Started</button>
+                <button className="call-to-action">Get Started</button>
             </div>
 
         </>
