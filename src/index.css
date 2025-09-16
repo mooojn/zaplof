@@ -4,6 +4,7 @@
 :root {
   --primary: #001139;
   --secondary: white;
+  --mb-each-component: 100px;
 }
 
 body {
@@ -12,6 +13,10 @@ body {
   padding: 0;
   background: var(--secondary);
   color: var(--primary);
+}
+
+.components>* {
+  margin-bottom: var(--mb-each-component, 2rem);
 }
 
 .call-to-action {
