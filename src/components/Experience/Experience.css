@@ -1,0 +1,56 @@
+.timeline {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: var(--primary);
+  position: relative;
+}
+
+/* vertical line down the left side */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 6px; /* aligns with center of the dot */
+  width: 2px;
+  height: 100%;
+  background: #ccc;
+  z-index: 0;
+}
+
+/* each item */
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--mb-each-component);
+  padding-left: 2.5rem;
+}
+
+/* dot */
+.timeline-dot {
+  position: absolute;
+  left: -16px;
+  top: 0.75rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--primary);
+  z-index: 1; 
+}
+
+/* card */
+.timeline-content {
+  background: var(--secondary);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-content:hover {
+  box-shadow: 0 6px 16px rgba(0, 17, 57, 0.15);
+  transform: translateY(-3px);
+}
