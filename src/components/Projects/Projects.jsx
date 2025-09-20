@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card/Card.jsx'
 import Heading from '../../Heading.jsx'
-import { projects } from '../../data/data.js'
+import { projects } from '../../data/data.jsx'
 import './Projects.css'
 
 const Projects = () => {
