@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100">
+  <style>
+    .zaplof-text {
+      font-family: 'Montserrat', 'Arial', sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      fill: #001139;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+  </style>
+  <text x="50%" y="50%" class="zaplof-text">Zaplof</text>
+</svg>
