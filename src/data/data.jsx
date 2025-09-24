@@ -1,5 +1,3 @@
-import img from '../assets/proj.png'
-
 // skills
 import {
     SiReact,
@@ -14,76 +12,86 @@ import {
     SiMongodb,
     SiGit,
 } from "react-icons/si";
-import { FaRegCircle } from "react-icons/fa"; // fallback
+import { FaRegCircle } from "react-icons/fa";
+
+// project-images
+const images = import.meta.glob('../assets/projects/*.png', { eager: true });
+const projectImages = Object.values(images).map((img) => img.default);
 
 
 export const projects = [
     {
-        category: 'web app',
-        title: 'FormCraft',
-        description: 'FormCraft is an AI-powered no-code form builder that allows you to create responsive forms with ease. It features a drag-and-drop interface, file upload option, AI form creation, analytics dashboard and a wide range of customizations.',
+        category: 'FinTech',
+        title: 'Crypto Yard – Crypto Trading Website',
+        description: 'A real-time crypto trading platform with secure authentication and seamless frontend-backend integration.',
         features: [
-            'AI Form Builder',
-            'Drag-and-Drop Interface',
-            'Wide variety of Form Templates',
-            'Real-Time Analytics Dashboard',
-            'Wide Range of Field Types including File Uploads',
-            'Conditional Logic & Validation',
-            'Multi-Page Forms'
+            'Developed full backend in C# integrating third-party trading APIs, reducing response latency by 25%',
+            'Implemented secure user authentication with 100% login success rate during testing',
+            'Led a 6-member team, achieving on-time delivery with zero critical bugs'
         ],
         technologies: [
-            'Next.js',
-            'TypeScript',
-            'Tailwind CSS',
-            'Airtable',
-            'Google APIs',
-            'Webhooks',
-            'ShadCN UI',
-            'Gemini AI',
-            'MongoDB'
+            'C#',
+            'ASP.NET',
+            'React JS',
+            'REST APIs',
+            'SQL Server'
         ],
         actions: [
             {
-                name: 'Live',
-                link: 'https://www.youtube.com'
-            },
-            {
                 name: 'Github',
-                link: 'https://github.com/mooojn/'
+                link: 'https://github.com/mooojn/Crypto-Yard'
             }
         ],
-        image: img
+        image: projectImages[0]
     },
     {
-        category: 'PWA',
-        title: 'VI Messenger',
-        description: 'Feature rich chat app with personal and group chats, AI chat with realtime streaming responses powered by LLAMA 3, multimedia support, typing indicators, online stats, message reactions, message replies, limited time message updating and so much more...',
+        category: 'Banking',
+        title: 'Azure Bank – Bank Management System',
+        description: 'A complete banking management system built with modular C# architecture and SQL Server backend.',
         features: [
-            'High quality file sharing',
-            'Real time read-receipts',
-            'AI assistant',
-            'Install as PWA in any device - Fully responsive'
+            'Developed banking app in C# with DLL-based architecture, improving modularity by 40%',
+            'Designed Windows Forms GUI for account, deposit, and withdrawal operations',
+            'Integrated SQL Server backend with 99.9% query success rate during testing'
         ],
         technologies: [
-            'TypeScript',
-            'React',
-            'Tailwind CSS',
-            'Zustand',
-            'Socket.io',
-            'Express JS',
-            'Mongo DB',
-            'PWA',
-            'Service Workers'
+            'C#',
+            'Windows Forms',
+            'OOP',
+            'SQL Server'
         ],
         actions: [
             {
                 name: 'Github',
-                link: 'https://github.com/mooojn/'
+                link: 'https://github.com/mooojn/Azure-Bank'
             }
         ],
-        image: img
+        image: projectImages[1]
+    },
+    {
+        category: 'Database Systems',
+        title: 'Database Management System',
+        description: 'A custom DBMS built in C# with SQL-like query parsing, ACID compliance, and efficient data handling.',
+        features: [
+            'Led 4-member team to implement SQL-like query parsing with ACID-compliant transactions',
+            'Implemented file indexing, backup/restore, improving query execution efficiency by 35%',
+            'Built C# Windows Forms UI integrated with backend for smooth database operations'
+        ],
+        technologies: [
+            'C#',
+            'Windows Forms',
+            'SQL-like Engine',
+            'File Indexing'
+        ],
+        actions: [
+            {
+                name: 'Github',
+                link: 'https://github.com/mooojn/ADBMS-c-sharp'
+            }
+        ],
+        image: projectImages[2]
     }
 ]
+
 
 export const experiences = [
     {
