@@ -2,17 +2,17 @@ import img from '../assets/proj.png'
 
 // skills
 import {
-  SiReact,
-  SiNextdotjs,
-  SiSass,
-  SiTailwindcss,
-  SiRedux,
-  SiTypescript,
-  SiJavascript,
-  SiExpress,
-  SiNodedotjs,
-  SiMongodb,
-  SiGit,
+    SiReact,
+    SiNextdotjs,
+    SiSass,
+    SiTailwindcss,
+    SiRedux,
+    SiTypescript,
+    SiJavascript,
+    SiExpress,
+    SiNodedotjs,
+    SiMongodb,
+    SiGit,
 } from "react-icons/si";
 import { FaRegCircle } from "react-icons/fa"; // fallback
 
@@ -87,49 +87,57 @@ export const projects = [
 
 export const experiences = [
     {
-        company: "Genpro Research",
-        period: "Jul 2023 – Present",
-        role: "Frontend Engineer",
-        points: [
-            "Built the MAIA product suite, reducing authoring time and costs by up to 50%.",
-            "Developed advanced semantic search AI with features like chat, follow-up, and citation navigation.",
-            "Built an Admin Panel with Next.js 13 featuring dashboards, role-based access, and visualizations.",
-            "Contributed to rich text editor with SlateJS, supporting multi-tab editing and text formatting.",
-            "Published a UI component library with Rollup.js, Storybook, and Jest for scalable UI consistency.",
-        ],
+        "company": "UET Lahore",
+        "period": "3 months",
+        "role": "Odoo Intern",
+        "points": [
+            "Streamlined Odoo component development within a 4-member team, reducing module integration time by 25%.",
+            "Built responsive UI and social media integration modules, increasing platform usability by 30%.",
+            "Deployed end-to-end features in agile sprints, improving release efficiency by 20%."
+        ]
     },
     {
-        company: "Infosys Ltd.",
-        period: "Dec 2021 – Jul 2023",
-        role: "CyberSecurity Engineer",
-        points: [
-            "Worked on SOAR team as a CyberSecurity Engineer.",
-            "Automated processes and playbooks to improve incident response efficiency.",
-            "Developed Incident Response Workbench in Cortex XSOAR, integrated with IBM QRadar and ServiceNow.",
-        ],
+        "company": "UK Business Loan Expert",
+        "period": "Project-based",
+        "role": "WordPress Developer",
+        "points": [
+            "Delivered a WordPress website that boosted loan application conversion rates by 35%.",
+            "Optimized page speed and responsiveness, reducing bounce rate by 28%.",
+            "Improved SEO rankings, moving 10+ target keywords into the top 5 positions on Google UK."
+        ]
     },
     {
-        company: "Tech RSR",
-        period: "May 2021 – Dec 2021",
-        role: "Full-stack Engineer",
-        points: [
-            "Contributed to Handy Project Management (HPM) and Handy Meeting Minutes (HMM).",
-            "Enhanced performance by optimizing both frontend and backend code.",
-            "Integrated RESTful APIs with Redux, applied responsive design principles.",
-            "Automated testing with Cypress, optimized search performance with caching and debouncing.",
-        ],
+        "company": "UAE Construction Company",
+        "period": "Project-based",
+        "role": "WordPress Developer",
+        "points": [
+            "Developed a corporate site that increased client inquiries by 40% within the first quarter.",
+            "Implemented scalable navigation and mobile-first design, enhancing mobile traffic share by 32%.",
+            "Reduced site maintenance overhead by 25% through modular WordPress architecture."
+        ]
     },
-];
+    {
+        "company": "UAE Fire Management Company",
+        "period": "Project-based",
+        "role": "WordPress Developer",
+        "points": [
+            "Migrated 100+ static HTML/CSS pages to WordPress with 0% downtime during transition.",
+            "Enhanced SEO performance by 80%, driving a 2.5x increase in organic traffic within 6 months.",
+            "Optimized hosting and caching, reducing average page load time from 4.2s to 1.6s."
+        ]
+    }
+]
+
 
 
 export const skills = [
-  { name: "React", percent: "99%", icon: <SiReact />, color: "#61DAFB" },
-  { name: "Next JS", percent: "93%", icon: <SiNextdotjs />, color: "#000000" },
-  { name: "Tailwind CSS", percent: "95%", icon: <SiTailwindcss />, color: "#06B6D4" },
-  { name: "TypeScript", percent: "92%", icon: <SiTypescript />, color: "#3178C6" },
-  { name: "JavaScript", percent: "98%", icon: <SiJavascript />, color: "#F7DF1E" },
-  { name: "Express", percent: "90%", icon: <SiExpress />, color: "#000000" },
-  { name: "Node JS", percent: "85%", icon: <SiNodedotjs />, color: "#339933" },
-  { name: "MongoDB", percent: "92%", icon: <SiMongodb />, color: "#47A248" },
-  { name: "Git", percent: "85%", icon: <SiGit />, color: "#F05032" },
+    { name: "React", percent: "99%", icon: <SiReact />, color: "#61DAFB" },
+    { name: "Next JS", percent: "93%", icon: <SiNextdotjs />, color: "#000000" },
+    { name: "Tailwind CSS", percent: "95%", icon: <SiTailwindcss />, color: "#06B6D4" },
+    { name: "TypeScript", percent: "92%", icon: <SiTypescript />, color: "#3178C6" },
+    { name: "JavaScript", percent: "98%", icon: <SiJavascript />, color: "#F7DF1E" },
+    { name: "Express", percent: "90%", icon: <SiExpress />, color: "#000000" },
+    { name: "Node JS", percent: "85%", icon: <SiNodedotjs />, color: "#339933" },
+    { name: "MongoDB", percent: "92%", icon: <SiMongodb />, color: "#47A248" },
+    { name: "Git", percent: "85%", icon: <SiGit />, color: "#F05032" },
 ];
