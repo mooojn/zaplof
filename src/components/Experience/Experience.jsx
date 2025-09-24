@@ -6,15 +6,18 @@ import './Experience.css'
 const Experience = () => {
     return (
         <div>
-            <Heading head='My' end='Experience' description='Delivering Results: A Tech Professional`s Journey'></Heading>
+            <Heading
+                head='My'
+                end='Experience'
+                description='Delivering Results: A Tech Professional`s Journey'
+            />
             <div className="timeline">
                 {experiences.map((exp, index) => (
                     <div className="timeline-item" key={index}>
                         <div className="timeline-dot"></div>
                         <div className="timeline-content">
-                            <h3 className="company">
-                                {exp.company} <span className="period">{exp.period}</span>
-                            </h3>
+                            <h3 className="company">{exp.company}</h3>
+                            <p className="period">{exp.period}</p>
                             <h4 className="role">{exp.role}</h4>
                             <ul className="points">
                                 {exp.points.map((point, i) => (

@@ -12,7 +12,7 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 6px; /* aligns with center of the dot */
+  left: 6px;
   width: 2px;
   height: 100%;
   background: #ccc;
@@ -53,4 +53,77 @@
 .timeline-content:hover {
   box-shadow: 0 6px 16px rgba(0, 17, 57, 0.15);
   transform: translateY(-3px);
+}
+
+/* company name */
+.company {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+/* period below company in smaller font */
+.period {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+/* role */
+.role {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* points */
+.points {
+  list-style: none;
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.points li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* 🔹 Responsive adjustments */
+@media (max-width: 768px) {
+  .timeline {
+    padding: 0.5rem;
+  }
+  .timeline-content {
+    padding: 1rem;
+  }
+  .company {
+    font-size: 1.1rem;
+  }
+  .role {
+    font-size: 1rem;
+  }
+  .points li {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-item {
+    padding-left: 2rem;
+  }
+  .timeline-dot {
+    left: -12px;
+    width: 12px;
+    height: 12px;
+  }
+  .company {
+    font-size: 1rem;
+  }
+  .period {
+    font-size: 0.75rem;
+  }
+  .role {
+    font-size: 0.9rem;
+  }
 }
