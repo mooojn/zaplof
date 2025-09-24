@@ -27,7 +27,7 @@ const Card = ({ project }) => {
 
           <div className="project-links">
             {project.actions.map((action, id) =>
-              <a href={action.link} key={id}><button>{action.name}</button></a>
+              <a href={action.link} key={id} target='_blank'><button>{action.name}</button></a>
             )}
           </div>
         </div>
