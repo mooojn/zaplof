@@ -42,12 +42,27 @@
 }
 
 .nav-items li {
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border-bottom: 2px solid transparent;
+  position: relative;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-items li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
 }
 
 .nav-items li:hover {
-    color: #021139;
-    border-bottom: 2px solid #021139;
+  color: var(--tertiary);
+}
+
+.nav-items li:hover::after {
+  width: 100%;
 }
