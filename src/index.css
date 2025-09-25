@@ -3,7 +3,8 @@
 
 :root {
   --primary: #001139;
-  --secondary: white;
+  --secondary: #f5f5f5	;
+  --tertiary: #10b981;  /* extra accent */
   --mb-each-component: 100px;
 }
 
