@@ -6,7 +6,7 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <Heading head='Recent' end='Projects' description='I enjoy building side projects and constantly challenge myself apart from my actual work :)'></Heading>
       <div className="cards">
         {projects.map((proj, id)=>

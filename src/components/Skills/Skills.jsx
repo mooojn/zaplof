@@ -5,7 +5,7 @@ import './Skills.css'
 
 const Skills = () => {
     return (
-        <div>
+        <div id="skills">
             <Heading head='' end='Skills' description='Some of the tools I play with, Flexible to learn anything though :)'></Heading>
             <div className="skills-grid">
                 {skills.map((skill, i) => (
