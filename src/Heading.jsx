@@ -17,7 +17,7 @@ const Heading = ({ head = 'heading', end = '', description = 'Lorem ipsum dolor 
             {end}
           </span>
         </h1>
-        <p>{description}</p>
+        <p style={{color: "var(--neutral)"}}>{description}</p>
       </div>
     </>
   )

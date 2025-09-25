@@ -59,7 +59,7 @@
 .project-sub-heading {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--primary);
+  color: var(--tertiary);
   margin-bottom: -25px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -69,13 +69,13 @@
   font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1px;
-  color: #000;
+  color: var(--primary);
 }
 
 .project-description {
   font-size: 1.125rem;
   line-height: 1.6;
-  color: #444;
+  color: var(--neutral);
   margin-bottom: 1.5rem;
 }
 
@@ -87,7 +87,7 @@
 .project-features li {
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  color: #333;
+  color: var(--primary);
 }
 
 .project-badges {
@@ -107,8 +107,7 @@
   transition: background 0.3s ease-in-out;
 }
 .project-badges li:hover {
-  background: cyan;
-  color: #000;
+  background: var(--tertiary);
 }
 
 .project-card button {
