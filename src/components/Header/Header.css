@@ -30,7 +30,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   z-index: 10;
-
+  
 }
 
 .nav-items {
@@ -71,7 +71,7 @@
   .logo img {
     height: 70px;
   }
-
+  
   .nav {
     top: 20px;
     padding: 6px 20px;
@@ -80,13 +80,12 @@
   .nav-items {
     gap: 20px;
   }
-
+  
   .nav-items li {
     font-size: 0.95rem;
     padding: 4px 8px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .header {
     padding: 8px 15px;
@@ -95,13 +94,19 @@
   .logo img {
     height: 55px;
   }
+
   .nav {
-    left: 15%;
+    position: fixed;
+    bottom: 15px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 6px 15px;
   }
 
   .nav-items {
     gap: 12px;
+    justify-content: center;
   }
 
   .nav-items li {
@@ -120,12 +125,17 @@
   }
 
   .nav {
-    top: 10px;
+    position: fixed;
+    bottom: 10px;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 5px 10px;
   }
 
   .nav-items {
     gap: 8px;
+    justify-content: center;
   }
 
   .nav-items li {
