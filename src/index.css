@@ -24,6 +24,7 @@ body {
   padding: 0;
   background: var(--secondary);
   color: var(--primary);
+  overflow-x: hidden;
 }
 
 .components>* {
