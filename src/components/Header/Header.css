@@ -126,7 +126,7 @@
 
   .nav {
     position: fixed;
-    bottom: 10px;
+    bottom: -10px;
     top: auto;
     left: 50%;
     transform: translateX(-50%);

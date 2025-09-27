@@ -13,7 +13,7 @@
 
 .project-card:hover {
   border-radius: 22px;
-  box-shadow: 2px 2px 10px 5px var(--primary);
+  box-shadow: var(--box-shadow-projects);
 }
 
 .gradient-blob-2 {
