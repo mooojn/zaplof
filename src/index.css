@@ -12,6 +12,7 @@
   --neutral: #6b7280;
   /* --neutral: rgba(255, 255, 255, 0.767); */
   --grayed: #bbb;
+  --white: white;
   /* shadows */
   --box-shadow-hover: rgba(0, 17, 57, 0.15);
   --box-shadow: rgba(0, 0, 0, 0.05);
