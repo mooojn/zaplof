@@ -12,14 +12,27 @@
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 20px;
-  color: var(--white);
+  color: var(--primary);
 }
 
 .hero p {
   font-size: 20px;
   font-weight: 400;
-  color: var(--white);
+  color: var(--neutral);
   margin-bottom: 40px;
+}
+
+.gradient-blob {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 300px;
+  background: radial-gradient(circle at 30% 30%, #00ff99, #0099ff, #7f00ff);
+  filter: blur(120px);
+  opacity: 0.6;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -28,6 +41,11 @@
   }
   .hero p {
     font-size: 18px;
+  }
+  .gradient-blob {
+    width: 600px;
+    height: 250px;
+    top: 180px;
   }
 }
 
@@ -41,6 +59,12 @@
   .hero p {
     font-size: 16px;
   }
+  .gradient-blob {
+    width: 400px;
+    height: 200px;
+    top: 150px;
+    filter: blur(90px);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -52,5 +76,11 @@
   }
   .hero p {
     font-size: 14px;
+  }
+  .gradient-blob {
+    width: 280px;
+    height: 160px;
+    top: 130px;
+    filter: blur(70px);
   }
 }
