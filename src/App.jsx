@@ -3,8 +3,8 @@ import Header from './components/Header/Header.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import Projects from './components/Projects/Projects.jsx'
 import Blob from './components/Blob/Blob.jsx'
-import Experience from './components/Experience/Experience.jsx'
-import Skills from './components/Skills/Skills.jsx'
+// import Experience from './components/Experience/Experience.jsx'
+import Services from './components/Services/Services.jsx'
 
 const App = () => {
   return (
@@ -14,8 +14,8 @@ const App = () => {
       <Hero></Hero>
     <div className="components">
       <Projects></Projects>
-      <Experience></Experience>
-      <Skills></Skills>
+      {/* <Experience></Experience> */}
+      <Services></Services>
     </div>
     </>
   )
