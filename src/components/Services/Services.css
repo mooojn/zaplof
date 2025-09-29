@@ -70,3 +70,38 @@
 .learn-more:hover {
   color: #7acb28; /* lime accent */
 }
+
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .service-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+    gap: 40px;
+  }
+
+  .service-info {
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .service-info h3 {
+    font-size: 28px;
+    height: auto;
+  }
+
+  .service-icon img {
+    width: 120px;
+  }
+
+  .learn-more {
+    font-size: 20px;
+  }
+}
