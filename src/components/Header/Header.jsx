@@ -22,8 +22,8 @@ const Header = () => {
                 <ul className="nav-items">
                     <li onClick={() => handleScroll("home")}>Home</li>
                     <li onClick={() => handleScroll("projects")}>Projects</li>
-                    <li onClick={() => handleScroll("experience")}>Experience</li>
-                    <li onClick={() => handleScroll("skills")}>Skills</li>
+                    {/* <li onClick={() => handleScroll("experience")}>Experience</li> */}
+                    <li onClick={() => handleScroll("services")}>Services</li>
                 </ul>
             </div>
         </div>
