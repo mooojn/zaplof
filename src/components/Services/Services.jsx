@@ -11,7 +11,7 @@ const Services = () => {
 
   return (
     <>
-    <div className="serivces-wrap" id="services">
+    <div className="serivces-wrap">
 
     <Heading
         head=""

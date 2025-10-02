@@ -6,7 +6,7 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div>
       <Heading
         head=''
         end='Projects'
