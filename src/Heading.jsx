@@ -3,7 +3,7 @@ import React from 'react'
 const Heading = ({ head = 'heading', end = '', description = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laborum quo, odit dignissimos voluptatibus minus magnam reprehenderit repellat nam quasi?' }) => {
   return (
     <>
-      <div style={{ textAlign: "center", fontSize: "20px", fontFamily: "Consolas", color: "var(--primary)" }}>
+      <div style={{ textAlign: "center", fontSize: "20px", fontFamily: "Consolas", color: "var(--primary)", marginBottom: "50px"}}>
         <h1 style={{}}>
           {head}{" "}
           <span
@@ -17,7 +17,9 @@ const Heading = ({ head = 'heading', end = '', description = 'Lorem ipsum dolor 
             {end}
           </span>
         </h1>
-        <p style={{color: "var(--neutral)"}}>{description}</p>
+        <p style={{ color: "var(--neutral)", maxWidth: "1000px", textAlign: "center", margin: "0 auto" }}>
+          {description}
+        </p>
       </div>
     </>
   )
