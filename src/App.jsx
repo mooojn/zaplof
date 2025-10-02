@@ -9,6 +9,7 @@ const App = () => {
           <React.Fragment key={idx}>{comp.component}</React.Fragment>
         ) : (
           <div key={idx} id={comp.id}>
+            {comp.heading}
             {comp.component}
           </div>
         )
