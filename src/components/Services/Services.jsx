@@ -12,13 +12,6 @@ const Services = () => {
   return (
     <>
     <div className="serivces-wrap">
-
-    <Heading
-        head=""
-        end="Services"
-        description="Offering a versatile range of digital services, tailored to help your brand grow"
-        
-        />
     <div className="services-grid">
       {services.map((service, i) => {
         const bg = bgColors[i % bgColors.length];

@@ -1,20 +1,58 @@
 // components
 import Header from '../components/Header/Header.jsx'
 import Hero from '../components/Hero/Hero.jsx'
+import About from '../components/About/About.jsx'
 import Projects from '../components/Projects/Projects.jsx'
 import Blob from '../components/Blob/Blob.jsx'
 import Services from '../components/Services/Services.jsx'
 
+import Heading from '../Heading.jsx'
+
 export const navItems = [
-    "Home",
-    "Projects",
-    "Services",
+  "Home",
+  "About",
+  "Projects",
+  "Services",
 ]
 
 export const components = [
-  { component: <Blob />, id: null },
-  { component: <Header />, id: "home" },
-  { component: <Hero />, id: null },
-  { component: <Projects />, id: "projects" },
-  { component: <Services />, id: "services" }
+  {
+    id: null,
+    component: <Blob />,
+  },
+  {
+    id: "home",
+    component: <Header />,
+  },
+  {
+    id: null,
+    component: <Hero />,
+  },
+  {
+    id: "about",
+    component: <About />,
+    heading: <Heading
+      head=""
+      end="About"
+      description="Zaplof is a forward-thinking brand focused on delivering digital excellence. We blend creativity, technology, and strategy to craft solutions that empower businesses and leave a lasting impact."
+    />
+  },
+  {
+    id: "projects",
+    component: <Projects />,
+    heading: <Heading
+      head=""
+      end="Projects"
+      description="A showcase of impactful projects, highlighting creativity, innovation, and expertise beyond client work."
+    />
+  },
+  {
+    id: "services",
+    component: <Services />,
+    heading: <Heading
+      head=""
+      end="Services"
+      description="Offering a versatile range of digital services, tailored to help your brand grow"
+    />
+  }
 ];

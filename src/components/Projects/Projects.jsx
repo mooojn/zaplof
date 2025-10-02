@@ -7,11 +7,6 @@ import './Projects.css'
 const Projects = () => {
   return (
     <div>
-      <Heading
-        head=''
-        end='Projects'
-        description='A showcase of impactful projects, highlighting creativity, innovation, and expertise beyond client work.'
-      ></Heading>
       <div className="cards">
         {projects.map((proj, id) =>
           <Card key={id} project={proj}></Card>
