@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
+import { navItems } from '../../data/layout.jsx'
 import './Header.css'
 
 const Header = () => {
@@ -20,10 +21,9 @@ const Header = () => {
 
             <div className="nav">
                 <ul className="nav-items">
-                    <li onClick={() => handleScroll("home")}>Home</li>
-                    <li onClick={() => handleScroll("projects")}>Projects</li>
-                    {/* <li onClick={() => handleScroll("experience")}>Experience</li> */}
-                    <li onClick={() => handleScroll("services")}>Services</li>
+                    {navItems.map((nav, id)=>
+                        <li key={id} onClick={() => handleScroll(nav.toLowerCase())}>{nav}</li>
+                    )}
                 </ul>
             </div>
         </div>
