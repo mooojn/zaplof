@@ -1,173 +1,168 @@
+.about-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.shader-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-content {
+  font-family: "Krona One";
+  position: relative;
+  z-index: 1;
+  color: black;
+  color: var(--primary);
+  padding: 4rem 2rem;
+  width: 85%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 42px;
+}
+
+.about-content-cards {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.about-card {
+  height: 400px;
+  width: 250px;
+  padding: 0px 20px;
+  border-radius: 22px;
+}
+
+.about-card-value {
+  margin: 0px;
+  font-size: 120px;
+}
+
+.card-left {
+  background: var(--primary);
+  color: white;
+}
+
+.card-right {
+  background: white;
+  color: var(--primary);
+}
+
+.about-card-desc {
+  font-size: 42px;
+}
+
+
+@media screen and (max-width: 1368px) {
   .about-section {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .shader-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
-  }
-
-  .about-content {
-    font-family: "Krona One";
-    position: relative;
-    z-index: 1;
-    color: black;
-    color: var(--primary);
-    padding: 4rem 2rem;
-    width: 85%;
-    margin: 0 auto;
-
-    text-align: center;
+    height: 90vh;
   }
 
   .about-content h1 {
-    font-size: 42px;
-
-  }
-
-  .about-content-cards {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
+    font-size: 32px;
   }
 
   .about-card {
-    height: 400px;
-    width: 250px;
-    padding: 0px 20px;
-    border-radius: 22px;
+    height: 300px;
+    width: 200px;
   }
 
   .about-card-value {
-    margin: 0px;
-    font-size: 120px;
-  }
-
-  .card-left {
-    background: var(--primary);
-    color: white;
-  }
-
-  .card-right {
-    background: white;
-    color: var(--primary);
+    font-size: 90px;
   }
 
   .about-card-desc {
-    font-size: 42px;
+    font-size: 32px;
   }
 
 
-  @media screen and (max-width: 1368px) {
-    .about-section {
-      height: 90vh;
-    }
+}
 
-    .about-content h1 {
-      font-size: 32px;
-    }
-
-    .about-card {
-      height: 300px;
-      width: 200px;
-    }
-
-    .about-card-value {
-      font-size: 90px;
-    }
-
-    .about-card-desc {
-      font-size: 32px;
-    }
-
-
+@media screen and (max-width: 1024px) {
+  .about-content h1 {
+    font-size: 32px;
   }
 
-  @media screen and (max-width: 1024px) {
-    .about-content h1 {
-      font-size: 32px;
-    }
-
-    .about-card {
-      height: 250px;
-      width: 140px;
-    }
-
-    .about-card-value {
-      font-size: 70px;
-    }
-
-    .about-card-desc {
-      font-size: 24px;
-    }
+  .about-card {
+    height: 250px;
+    width: 140px;
   }
 
-  @media screen and (max-width: 768px) {
-    .about-section {
-      height: 80vh;
-    }
-
-    .about-content h1 {
-      font-size: 22px;
-    }
-
-    .about-card {
-      height: 140px;
-      width: 100px;
-    }
-
-    .about-card-value {
-      font-size: 50px;
-    }
-
-    .about-card-desc {
-      font-size: 16px;
-    }
-
-
-
+  .about-card-value {
+    font-size: 70px;
   }
 
-  @media screen and (max-width: 568px) {
-    .about-card {
-      height: 120px;
-      width: 80px;
-    }
+  .about-card-desc {
+    font-size: 24px;
+  }
+}
 
-    .about-card-value {
-      font-size: 40px;
-    }
-
-    .about-card-desc {
-      font-size: 14px;
-    }
+@media screen and (max-width: 768px) {
+  .about-section {
+    height: 70vh;
   }
 
-  @media screen and (max-width: 468px) {
-    .about-section {
-      height: 70vh;
-    }
-
-    .about-card {
-      height: 80px;
-      width: 60px;
-    }
-
-    .about-card-value {
-      font-size: 30px;
-    }
-
-    .about-card-desc {
-      font-size: 10px;
-    }
-
-
-
+  .about-content h1 {
+    font-size: 22px;
   }
+
+  .about-card {
+    height: 140px;
+    width: 100px;
+  }
+
+  .about-card-value {
+    font-size: 50px;
+  }
+
+  .about-card-desc {
+    font-size: 16px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 568px) {
+  .about-card {
+    height: 120px;
+    width: 80px;
+  }
+
+  .about-card-value {
+    font-size: 40px;
+  }
+
+  .about-card-desc {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .about-card {
+    height: 80px;
+    width: 60px;
+  }
+
+  .about-card-value {
+    font-size: 30px;
+  }
+
+  .about-card-desc {
+    font-size: 10px;
+  }
+
+
+
+}
