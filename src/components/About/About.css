@@ -67,7 +67,7 @@
 
   @media screen and (max-width: 1368px) {
     .about-section {
-      height: 80vh;
+      height: 90vh;
     }
 
     .about-content h1 {
@@ -111,7 +111,7 @@
 
   @media screen and (max-width: 768px) {
     .about-section {
-      height: 60vh;
+      height: 80vh;
     }
 
     .about-content h1 {
@@ -152,7 +152,7 @@
 
   @media screen and (max-width: 468px) {
     .about-section {
-      height: 60vh;
+      height: 70vh;
     }
 
     .about-card {
