@@ -34,7 +34,7 @@ export const components = [
     heading: <Heading
       head=""
       end="About"
-      description="Zaplof is a forward-thinking brand focused on delivering digital excellence. We blend creativity, technology, and strategy to craft solutions that empower businesses and leave a lasting impact."
+      // description="Zaplof is a forward-thinking brand focused on delivering digital excellence. We blend creativity, technology, and strategy to craft solutions that empower businesses and leave a lasting impact."
     />
   },
   {
@@ -43,7 +43,7 @@ export const components = [
     heading: <Heading
       head=""
       end="Projects"
-      description="A showcase of impactful projects, highlighting creativity, innovation, and expertise beyond client work."
+      // description="A showcase of impactful projects, highlighting creativity, innovation, and expertise beyond client work."
     />
   },
   {
@@ -52,7 +52,7 @@ export const components = [
     heading: <Heading
       head=""
       end="Services"
-      description="Offering a versatile range of digital services, tailored to help your brand grow"
+      // description="Offering a versatile range of digital services, tailored to help your brand grow"
     />
   }
 ];
