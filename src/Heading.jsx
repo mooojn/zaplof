@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Heading = ({ head = 'heading', end = '', description = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laborum quo, odit dignissimos voluptatibus minus magnam reprehenderit repellat nam quasi?' }) => {
+const Heading = ({ head = '', end = '', description = '' }) => {
   return (
     <>
       <div style={{ textAlign: "center", fontSize: "20px", fontFamily: "Consolas", color: "var(--primary)", marginBottom: "50px"}}>
