@@ -6,74 +6,76 @@ const projectImages = Object.values(images).map((img) => img.default);
 const serviceIcons = import.meta.glob('../assets/services/*.svg', { eager: true });
 const serviceImages = Object.values(serviceIcons).map((icon) => icon.default);
 
-
 export const projects = [
     {
-        category: 'FinTech',
-        title: 'Crypto Yard – Crypto Trading Website',
-        description: 'A real-time crypto trading platform with secure authentication and seamless frontend-backend integration.',
+        category: 'Construction',
+        title: 'Bids Estimating – Construction Estimation Company',
+        description: 'A professional construction cost estimation and consultancy website designed and developed fully in WordPress with a focus on user experience and service clarity.',
         features: [
-            'Developed full backend in C# integrating third-party trading APIs, reducing response latency by 25%',
-            'Implemented secure user authentication with 100% login success rate during testing',
-            'Led a 6-member team, achieving on-time delivery with zero critical bugs'
+            'Designed modern, trust-focused UI showcasing construction estimating services for contractors and builders',
+            'Developed a fully responsive and SEO-optimized WordPress site for better reach and engagement',
+            'Integrated service inquiry forms, project showcases, and blog sections for client interaction and marketing'
         ],
         technologies: [
-            'C#',
-            'ASP.NET',
-            'React JS',
-            'REST APIs',
-            'SQL Server'
+            'WordPress',
+            'Elementor',
+            'PHP',
+            'HTML5',
+            'CSS3',
+            'JavaScript'
         ],
         actions: [
             {
-                name: 'Github',
-                link: 'https://github.com/mooojn/Crypto-Yard'
+                name: 'Live Site',
+                link: 'https://bidsestimating.com'
             }
         ],
         image: projectImages[0]
     },
     {
-        category: 'Banking',
-        title: 'Azure Bank – Bank Management System',
-        description: 'A complete banking management system built with modular C# architecture and SQL Server backend.',
+        category: 'Web Development',
+        title: 'AMW – Fire Management in UAE',
+        description: 'Converted a static HTML website into a fully dynamic WordPress site with reusable components and centralized management.',
         features: [
-            'Developed banking app in C# with DLL-based architecture, improving modularity by 40%',
-            'Designed Windows Forms GUI for account, deposit, and withdrawal operations',
-            'Integrated SQL Server backend with 99.9% query success rate during testing'
+            'Rebuilt site architecture in WordPress using a single header and footer for global consistency',
+            'Migrated all static .html files to dynamic WordPress templates ensuring easy content updates',
+            'Optimized performance and SEO while maintaining original design and responsiveness'
         ],
         technologies: [
-            'C#',
-            'Windows Forms',
-            'OOP',
-            'SQL Server'
+            'WordPress',
+            'PHP',
+            'HTML5',
+            'CSS3',
+            'JavaScript'
         ],
         actions: [
             {
-                name: 'Github',
-                link: 'https://github.com/mooojn/Azure-Bank'
+                name: 'Live Site',
+                link: 'https://amw-fm.com'
             }
         ],
         image: projectImages[1]
     },
     {
-        category: 'Database Systems',
-        title: 'Database Management System',
-        description: 'A custom DBMS built in C# with SQL-like query parsing, ACID compliance, and efficient data handling.',
+        category: 'FinTech',
+        title: 'Loan Expert – UK Loan Providing Platform',
+        description: 'A UK-based business loan platform featuring an engaging landing page and an advanced dynamic form for loan application submissions.',
         features: [
-            'Led 4-member team to implement SQL-like query parsing with ACID-compliant transactions',
-            'Implemented file indexing, backup/restore, improving query execution efficiency by 35%',
-            'Built C# Windows Forms UI integrated with backend for smooth database operations'
+            'Developed a responsive landing page optimized for high conversion and lead generation',
+            'Built a dynamic, multi-step loan application form with conditional logic and backend integration',
+            'Implemented validation, data storage, and email notifications for seamless loan application processing'
         ],
         technologies: [
-            'C#',
-            'Windows Forms',
-            'SQL-like Engine',
-            'File Indexing'
+            'WordPress',
+            'PHP',
+            'JavaScript',
+            'HTML5',
+            'CSS3'
         ],
         actions: [
             {
-                name: 'Github',
-                link: 'https://github.com/mooojn/ADBMS-c-sharp'
+                name: 'Live Site',
+                link: 'https://ukbusinessloanexpert.com'
             }
         ],
         image: projectImages[2]
