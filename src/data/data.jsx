@@ -79,6 +79,32 @@ export const projects = [
             }
         ],
         image: projectImages[2]
+    },
+    {
+        category: "Service Business",
+        title: "Simply Divines – US-Based Service Website",
+        description: "A complete website solution for a US-based client, featuring custom-designed HTML/CSS pages integrated into WordPress with hosting setup and email-integrated forms.",
+        features: [
+            "Designed all website pages using clean and responsive HTML/CSS",
+            "Integrated static designs into WordPress for easy content management",
+            "Configured hosting and domain setup on GoDaddy",
+            "Developed and linked contact forms with email notifications for instant submissions",
+            "Optimized performance and responsiveness across all devices"
+        ],
+        technologies: [
+            "WordPress",
+            "PHP",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        actions: [
+            {
+                name: "Live Site",
+                link: "https://simplydivines.com"
+            }
+        ],
+        image: projectImages[3]
     }
 ]
 
