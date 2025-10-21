@@ -8,6 +8,34 @@ const serviceImages = Object.values(serviceIcons).map((icon) => icon.default);
 
 export const projects = [
     {
+        category: "Service Business",
+        title: "Adzzly – Brand Portfolio Website",
+        description: "A full-service brand portfolio website showcasing my creative work under the Adzzly brand. Built on WordPress with animated and interactive elements, hosted via Hostinger, featuring GSAP-powered animations and Framer for prototyping/interaction.",
+        features: [
+            "Designed and implemented brand portfolio layout in WordPress",
+            "Applied GSAP animations for dynamic transitions and interactive effects",
+            "Utilised Framer for prototyping interactive components and micro-interactions",
+            "Set up hosting and domain management using Hostinger",
+            "Optimised responsiveness and performance across devices"
+        ],
+        technologies: [
+            "WordPress",
+            "GSAP (GreenSock Animation Platform)",
+            "Framer",
+            "Hostinger Hosting",
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        actions: [
+            {
+                name: "Live Site",
+                link: "https://adzzly.com"
+            }
+        ],
+        image: projectImages[0]
+    },
+    {
         category: 'Construction',
         title: 'Bids Estimating – Construction Estimation Company',
         description: 'A professional construction cost estimation and consultancy website designed and developed fully in WordPress with a focus on user experience and service clarity.',
@@ -30,7 +58,7 @@ export const projects = [
                 link: 'https://bidsestimating.com'
             }
         ],
-        image: projectImages[0]
+        image: projectImages[1]
     },
     {
         category: 'Web Development',
@@ -52,30 +80,6 @@ export const projects = [
             {
                 name: 'Live Site',
                 link: 'https://amw-fm.com'
-            }
-        ],
-        image: projectImages[1]
-    },
-    {
-        category: 'FinTech',
-        title: 'Loan Expert – UK Loan Providing Platform',
-        description: 'A UK-based business loan platform featuring an engaging landing page and an advanced dynamic form for loan application submissions.',
-        features: [
-            'Developed a responsive landing page optimized for high conversion and lead generation',
-            'Built a dynamic, multi-step loan application form with conditional logic and backend integration',
-            'Implemented validation, data storage, and email notifications for seamless loan application processing'
-        ],
-        technologies: [
-            'WordPress',
-            'PHP',
-            'JavaScript',
-            'HTML5',
-            'CSS3'
-        ],
-        actions: [
-            {
-                name: 'Live Site',
-                link: 'https://ukbusinessloanexpert.com'
             }
         ],
         image: projectImages[2]
@@ -105,7 +109,32 @@ export const projects = [
             }
         ],
         image: projectImages[3]
-    }
+    },
+    {
+        category: 'FinTech',
+        title: 'Loan Expert – UK Loan Providing Platform',
+        description: 'A UK-based business loan platform featuring an engaging landing page and an advanced dynamic form for loan application submissions.',
+        features: [
+            'Developed a responsive landing page optimized for high conversion and lead generation',
+            'Built a dynamic, multi-step loan application form with conditional logic and backend integration',
+            'Implemented validation, data storage, and email notifications for seamless loan application processing'
+        ],
+        technologies: [
+            'WordPress',
+            'PHP',
+            'JavaScript',
+            'HTML5',
+            'CSS3'
+        ],
+        actions: [
+            {
+                name: 'Live Site',
+                link: 'https://ukbusinessloanexpert.com'
+            }
+        ],
+        image: projectImages[4]
+    },
+    
 ]
 
 export const services = [
