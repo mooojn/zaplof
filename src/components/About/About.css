@@ -1,6 +1,6 @@
 .about-section {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -18,151 +18,145 @@
   font-family: "Krona One";
   position: relative;
   z-index: 1;
-  color: black;
   color: var(--primary);
   padding: 4rem 2rem;
   width: 85%;
   margin: 0 auto;
-
   text-align: center;
 }
 
 .about-content h1 {
-  font-size: 42px;
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+
+.about-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .about-content-cards {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
   position: relative;
+  margin-top: 3rem;
 }
 
 .about-card {
-  height: 400px;
-  width: 250px;
-  padding: 0px 20px;
-  border-radius: 22px;
+  height: 25rem;
+  width: 16rem;
+  padding: 1rem;
+  border-radius: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .about-card-value {
-  margin: 0px;
-  font-size: 120px;
+  margin: 0;
+  font-size: 7rem;
+  line-height: 1;
+}
+
+.about-card-desc {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .card-left {
   background: var(--primary);
-  color: white;
+  color: #fff;
 }
 
 .card-right {
-  background: white;
+  background: #fff;
   color: var(--primary);
 }
 
-.about-card-desc {
-  font-size: 42px;
+/* ======= Responsive Breakpoints ======= */
+
+@media screen and (max-width: 1200px) {
+  .about-content h1 {
+    font-size: 2rem;
+  }
+  .about-card {
+    height: 20rem;
+    width: 13rem;
+  }
+  .about-card-value {
+    font-size: 5.5rem;
+  }
+  .about-card-desc {
+    font-size: 1.6rem;
+  }
 }
 
-
-@media screen and (max-width: 1368px) {
-  .about-section {
-    height: 90vh;
+@media screen and (max-width: 992px) {
+  .shader-wrapper {
+    width: 100%;
+    opacity: 0.4;
   }
-
   .about-content h1 {
-    font-size: 32px;
+    font-size: 1.8rem;
   }
-
   .about-card {
-    height: 300px;
-    width: 200px;
+    height: 18rem;
+    width: 12rem;
   }
-
   .about-card-value {
-    font-size: 90px;
+    font-size: 5rem;
   }
-
   .about-card-desc {
-    font-size: 32px;
-  }
-
-
-}
-
-@media screen and (max-width: 1024px) {
-  .about-content h1 {
-    font-size: 32px;
-  }
-
-  .about-card {
-    height: 250px;
-    width: 140px;
-  }
-
-  .about-card-value {
-    font-size: 70px;
-  }
-
-  .about-card-desc {
-    font-size: 24px;
+    font-size: 1.4rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .about-section {
-    height: 70vh;
+    min-height: auto;
+    padding-bottom: 4rem;
+  }
+
+  .about-content {
+    padding: 2rem 1rem;
   }
 
   .about-content h1 {
-    font-size: 22px;
+    font-size: 1.6rem;
+  }
+
+  .about-content-cards {
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-card {
-    height: 140px;
-    width: 100px;
+    width: 80%;
+    height: auto;
+    padding: 2rem 1rem;
   }
 
   .about-card-value {
-    font-size: 50px;
+    font-size: 4rem;
   }
 
   .about-card-desc {
-    font-size: 16px;
-  }
-
-
-
-}
-
-@media screen and (max-width: 568px) {
-  .about-card {
-    height: 120px;
-    width: 80px;
-  }
-
-  .about-card-value {
-    font-size: 40px;
-  }
-
-  .about-card-desc {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
 }
 
-@media screen and (max-width: 468px) {
-  .about-card {
-    height: 80px;
-    width: 60px;
+@media screen and (max-width: 480px) {
+  .about-content h1 {
+    font-size: 1.4rem;
   }
-
   .about-card-value {
-    font-size: 30px;
+    font-size: 3rem;
   }
-
   .about-card-desc {
-    font-size: 10px;
+    font-size: 1.2rem;
   }
-
-
-
 }
