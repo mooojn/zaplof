@@ -16,7 +16,7 @@ const Header = () => {
 
             <div className="header">
                 <div className="logo"><img src={logo} alt="Logo" /></div>
-                <button className="call-to-action">Get Started</button>
+                {/* <button className="call-to-action">Get Started</button> */}
             </div>
 
             <div className="nav">

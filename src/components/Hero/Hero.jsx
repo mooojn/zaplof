@@ -36,13 +36,16 @@ const Hero = () => {
         </h1>
         <p>Webflow Design Studio and Certified Partner</p>
 
-        <motion.button
-          className="call-to-action"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.3 }}
-        >
-          LET’S TALK
-        </motion.button>
+        <a href="mailto:moojntariq@gmail.com">
+          <motion.button
+            className="call-to-action"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.3 }}
+          >
+            LET’S TALK
+          </motion.button>
+        </a>
+
       </motion.div>
     </>
   );
