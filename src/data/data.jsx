@@ -134,7 +134,7 @@ export const projects = [
         ],
         image: projectImages[4]
     },
-    
+
 ]
 
 export const services = [
