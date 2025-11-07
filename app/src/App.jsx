@@ -1,21 +1,14 @@
 import React from 'react'
-import { components } from './data/layout.jsx'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import ProjectsPage from './pages/ProjectsPage.jsx'
 
 const App = () => {
   return (
-    <>
-      {components.map((comp, idx) =>
-        comp.id === null ? (
-          <React.Fragment key={idx}>{comp.component}</React.Fragment>
-        ) : (
-          <div key={idx} id={comp.id}>
-            {comp.heading}
-            {comp.component}
-          </div>
-        )
-      )}
-    </>
-
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+    </Routes>
   )
 }
 
