@@ -8,6 +8,7 @@ const serviceImages = Object.values(serviceIcons).map((icon) => icon.default);
 
 export const projects = [
     {
+        id: 1,
         category: "Service Business",
         title: "Adzzly – Brand Portfolio Website",
         description: "A full-service brand portfolio website showcasing my creative work under the Adzzly brand. Built on WordPress with animated and interactive elements, hosted via Hostinger, featuring GSAP-powered animations and Framer for prototyping/interaction.",
@@ -36,6 +37,7 @@ export const projects = [
         image: projectImages[0]
     },
     {
+        id: 3,
         category: 'Construction',
         title: 'Bids Estimating – Construction Estimation Company',
         description: 'A professional construction cost estimation and consultancy website designed and developed fully in WordPress with a focus on user experience and service clarity.',
@@ -61,6 +63,7 @@ export const projects = [
         image: projectImages[1]
     },
     {
+        id: 5,
         category: 'Web Development',
         title: 'AMW – Fire Management in UAE',
         description: 'Converted a static HTML website into a fully dynamic WordPress site with reusable components and centralized management.',
@@ -85,6 +88,7 @@ export const projects = [
         image: projectImages[2]
     },
     {
+        id: 4,
         category: "Service Business",
         title: "Simply Divines – US-Based Service Website",
         description: "A complete website solution for a US-based client, featuring custom-designed HTML/CSS pages integrated into WordPress with hosting setup and email-integrated forms.",
@@ -111,6 +115,7 @@ export const projects = [
         image: projectImages[3]
     },
     {
+        id: 6,
         category: 'FinTech',
         title: 'Loan Expert – UK Loan Providing Platform',
         description: 'A UK-based business loan platform featuring an engaging landing page and an advanced dynamic form for loan application submissions.',
@@ -134,7 +139,34 @@ export const projects = [
         ],
         image: projectImages[4]
     },
-
+    {
+        id: 2,
+        category: "Education Consultancy",
+        title: "Top Education Consultants – UK-Based Consultancy Website",
+        description: "A professional education consultancy website developed for a UK-based client, featuring a clean layout, domain-linked hosting setup, and integrated email system for inquiries.",
+        features: [
+            "Designed and developed a custom 3-page website (Home, Policy, and Contact pages)",
+            "Implemented 5 design revisions based on client feedback for a polished final result",
+            "Deployed the site using Vercel hosting with domain connection from Hostinger",
+            "Configured contact form submissions to send directly to the business email via Hostinger panel",
+            "Ensured responsive design, optimized performance, and a user-friendly experience"
+        ],
+        technologies: [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Vercel Hosting",
+            "Hostinger"
+        ],
+        actions: [
+            {
+                name: "Live Site",
+                link: "https://www.topeducationconsultants.co.uk"
+            }
+        ],
+        image: projectImages[5]
+    }
+    // current max id 6
 ]
 
 export const services = [
