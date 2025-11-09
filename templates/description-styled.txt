@@ -1,0 +1,9 @@
+Hi, I'm Munees Tariq, developer with 4 years of experience in:
+💻 Programming Languages: Python, C++, C#
+⚛️ Frontend Development: ReactJS, Angular
+🗄️ Databases: SQL, PostgreSQL, MongoDB
+🧩 Frameworks & Platforms: Odoo, WordPress, WooCommerce, Shopify
+🌐 Web & App Development: 1 year of professional experience in building efficient desktop applications and web solutions
+🚀 Other Skills: SEO, Object-Oriented Programming (OOP) & Data Structures and Algorithms (DSA)
+
+I focus on building efficient, and reliable software solutions.

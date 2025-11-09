@@ -1,0 +1,15 @@
+Full-Stack Developer with 4+ years of experience building scalable web, desktop, and ERP solutions.
+
+💸 Delivered FinTech and Banking projects including:
+- Crypto Yard: Real-time crypto trading platform built with C#, ASP.NET, ReactJS, SQL Server.
+- Azure Bank: Modular bank management system with DLL-based architecture and SQL backend.
+- Custom DBMS: SQL-like query engine with ACID compliance and efficient data handling.
+
+🏢 Professional experience includes:
+- Odoo Intern at UET Lahore: Streamlined module development, reducing integration time by 25%.
+- WordPress Developer (UK & UAE clients): Built responsive, SEO-optimized business 
+websites improving conversion rates and load times.
+
+🧠 Skilled in Python, C++, C#, ReactJS, Odoo, and WordPress, with hands-on experience in SQL, PostgreSQL, and MongoDB.
+
+⚙️ Strong command over object-oriented programming (OOP), data structures, and REST API integration.
