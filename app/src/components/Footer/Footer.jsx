@@ -3,10 +3,9 @@ import logo from '../../assets/logo.svg';
 import './Footer.css';
 
 const socialLinks = [
-  { name: 'Twitter', url: 'https://twitter.com/' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/zaplof' },
-  // { name: 'GitHub', url: 'https://github.com/' },
-  // { name: 'Instagram', url: 'https://instagram.com/' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/company/zaplof' },
+  { name: 'Instagram', url: 'https://instagram.com/' },
+  { name: 'X', url: 'https://x.com/' },
 ];
 
 const Footer = () => (
