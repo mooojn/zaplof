@@ -4,6 +4,7 @@ import Header from '../components/Header/Header.jsx'
 import Card from '../components/Projects/Card/Card.jsx'
 import { projects } from '../data/data.jsx'
 import './ProjectsPage.css'
+import Footer from '../components/Footer/Footer.jsx'
 
 const ProjectsPage = () => {
   const navigate = useNavigate()
@@ -71,6 +72,7 @@ const ProjectsPage = () => {
           ))}
         </section>
       </main>
+      <Footer />
     </>
   )
 }

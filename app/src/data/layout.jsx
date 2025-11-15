@@ -1,5 +1,6 @@
 // components
 import Header from '../components/Header/Header.jsx'
+import Footer from '../components/Footer/Footer.jsx'
 import Hero from '../components/Hero/Hero.jsx'
 import About from '../components/About/About.jsx'
 import Projects from '../components/Projects/Projects.jsx'
@@ -54,5 +55,9 @@ export const components = [
       end="Services"
       // description="Offering a versatile range of digital services, tailored to help your brand grow"
     />
-  }
+  },
+  {
+    id: null,
+    component: <Footer />,
+  },
 ];
