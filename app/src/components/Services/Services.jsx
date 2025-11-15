@@ -14,13 +14,10 @@ const Services = () => {
     <div className="serivces-wrap">
     <div className="services-grid">
       {services.map((service, i) => {
-        const bg = bgColors[i % bgColors.length];
-        const color = fontColors[i % fontColors.length];
         return (
           <div
           key={i}
           className="service-card"
-            style={{ background: bg, color: color }}
           >
             <div className="service-info">
               <h3 className="service-title">{service.title}</h3>
