@@ -170,8 +170,8 @@ export const projects = [
 ]
 
 export const services = [
-    { title: "SEO", img: serviceImages[0] },
-    { title: "Social Media Marketing", img: serviceImages[1] },
+    // { title: "SEO", img: serviceImages[0] },
+    { title: "Marketing", img: serviceImages[1] },
     { title: "WordPress", img: serviceImages[2] },
     { title: "Shopify", img: serviceImages[3] },
     { title: "Mobile App", img: serviceImages[4] },
